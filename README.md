@@ -1,9 +1,11 @@
 # sqlalchemy-challenge
 
 Background
+
 To utilize Python and SQLAlchemy to proform analysis and data exploration on the provided climate database. All of the analysis is required to be completed using SQLAlchemy ORM queries, Pandas, and Matplotlib.
 
 The challenge separated into 4 sessions:
+
 First session:
 
 1.1 Climate Analysis and Exploration:
@@ -37,7 +39,9 @@ o Query the last 12 months of temperature observation data for this station
 
 o Plot the results as a histogram with bins=12.
 
+
 The 2nd Session: Climate App
+
 
 Design a Flask API based on the queries that you have just developed.
 Use Flask to create routes needed.
@@ -66,7 +70,10 @@ When given the start only, calculate TMIN, TAVG, and TMAX for all dates greater 
 
 When given the start and the end date, calculate the TMIN, TAVG, and TMAX for dates between the start and end date inclusive.
 
+       
 The 3rd Session:
+       
+       
 3.1 Temperature Analysis I
 
 -Hawaii is reputed to enjoy mild weather all year. Is there a meaningful difference between the temperature in, for example, June and December?
