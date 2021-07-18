@@ -16,8 +16,13 @@ First session:
 
 -Load the data into a Pandas DataFrame and set the index to the date column, plot the results using DataFrame plot method. 
 
+![precipitation](https://user-images.githubusercontent.com/82508049/126061247-d019cb08-3f36-4ed7-b87c-77e047887362.png)
+
 
 -And print the summary statistics for the precipitation data.
+
+![describe](https://user-images.githubusercontent.com/82508049/126061251-dffa74fa-6341-4d1b-bb1c-fe23605332bf.png)
+
 
 
 1.2 Station Analysis
@@ -38,6 +43,8 @@ o Filter by the station with the highest number of observations
 o Query the last 12 months of temperature observation data for this station
 
 o Plot the results as a histogram with bins=12.
+
+![station-histogram](https://user-images.githubusercontent.com/82508049/126061259-751037b0-e88d-4fc7-890b-53dc186e7106.png)
 
 
 The 2nd Session: Climate App
@@ -99,7 +106,8 @@ o Use the average temperature as the bar height (y value)
 
 
 o Use the peak-to-peak (TMAX-TMIN) value as the y error bar (YERR).
-o 
+       
+![temperature](https://user-images.githubusercontent.com/82508049/126061276-281ac940-f5a1-4092-ba71-693c2e64faa9.png)
 
 3.3 Daily Rainfall Average
 To check and see what the rainfall has been:
@@ -122,4 +130,6 @@ Normals are the averages for the min, avg, and max temperatures. Using the provi
 -Load the list of daily normals into a Pandas DataFrame and set the index equal to the date.
 
 -Use Pandas to plot an area plot (stacked=False) for the daily normals.
+       
+![daily-normals](https://user-images.githubusercontent.com/82508049/126061280-af3f2d48-b59c-45b7-90b7-d45be15fef67.png)
 
